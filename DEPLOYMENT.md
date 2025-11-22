@@ -32,3 +32,19 @@ To enable Vercel Analytics:
 1. Go to your project dashboard on Vercel.
 2. Click on the "Analytics" tab.
 3. Click "Enable".
+
+## Troubleshooting
+
+### Dependency Conflicts (ERESOLVE)
+If you encounter an `ERESOLVE` error related to `react-helmet-async` and `react@19`, it is because some libraries are not yet compatible with React 19.
+**Fix:** Downgrade React to version 18 in `package.json`:
+```json
+"dependencies": {
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1"
+},
+"devDependencies": {
+  "@types/react": "^18.3.0",
+  "@types/react-dom": "^18.3.0"
+}
+```
