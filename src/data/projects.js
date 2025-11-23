@@ -8,7 +8,7 @@ export const projects = [
         title: "Shuttle Tracker",
         description: "A real-time shuttle tracking system built with React, Node.js, and MongoDB. Features include user authentication, shuttle tracking, and real-time updates.",
         tech: ["React", "Node.js", "Express.js", "Leaflet", "MongoDB", "Google OAuth"],
-        github: "https://github.com/chanakyasinde/Real-Time-Shuttle-Tracking-System",
+        github: "https://github.com/Chanakyasinde/Shuttle_Tracker",
         demo: "https://shuttle-tracker-gamma.vercel.app/",
         image: shuttleTrackerImg
     },
