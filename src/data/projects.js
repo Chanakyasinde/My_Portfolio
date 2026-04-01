@@ -1,6 +1,9 @@
 import furnitureImg from '../assets/furniture-project.png';
 import shuttleTrackerImg from '../assets/shuttle-tracker.png';
 import nsatImg from '../assets/nsat.png';
+import miniPlacementImg from '../assets/mini-placement-portal.png';
+import travelSquadImg from '../assets/travel-squad.png';
+
 
 export const projects = [
     {
@@ -30,12 +33,22 @@ export const projects = [
         demo: "https://nsat-2-0.vercel.app/",
         image: nsatImg
     },
-    // {
-    //     id: "travelsquad",
-    //     title: "TravelSquad",
-    //     description: "A travel companion app for planning group trips. Includes itinerary planning, and expense splitting.",
-    //     tech: ["React Native", "Firebase", "Google Maps API"],
-    //     github: "https://github.com/chanakyasinde/travelsquad",
-    //     demo: null
-    // }
+    {
+        id: "mini-placement-portal",
+        title: "Mini Placement Portal",
+        description: "A full-stack placement portal designed to connect students and recruiters, featuring role-based dashboards, job listings, and seamless application tracking with a clean and intuitive user interface.",
+        tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "PostgreSQL", "Prisma ORM", "JWT"],
+        github: "https://github.com/amitihere/mini_placement",
+        demo: "https://mini-placement-eight.vercel.app/",
+        image: miniPlacementImg
+    },
+    {
+        id: "travel-squad",
+        title: "TravelSquad (Mobile App)",
+        description: "A mobile-first group travel planner designed to manage trips, shared itineraries, and expense splitting in one place, featuring real-time updates and a smooth, user-friendly experience.",
+        tech: ["React Native (Expo)", "Node.js", "Express.js", "MySQL", "Firebase Auth"],
+        github: "https://github.com/Chanakyasinde/TravelSquad",
+        demo: "https://drive.google.com/file/d/1MEKO_N2iFQvjRU6UcvQLiSOYN8rZKhqo/view",
+        image: travelSquadImg
+    }
 ];
